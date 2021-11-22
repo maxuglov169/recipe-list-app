@@ -28,8 +28,9 @@ struct RecipeListView: View {
                             .scaledToFill()
                             .frame(width: 50, height: 50, alignment: .center)
                             .clipped()
-                            .cornerRadius(5)
+                            .cornerRadius(10)
                         Text(r.name)
+                            .foregroundColor(.gray)
                     }
                 }
 
